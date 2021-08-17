@@ -1,0 +1,208 @@
+<html lang="pt-BR">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>.: JobsNET Banco de Talentos :.</title>
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>JobsNET - Recrutamento e Seleção</h1>
+            </div>
+
+            <div>
+                <ul>
+                    <li>
+                        <a target="_blank" href="mailto:jobsnet@gmail.com">E-mail</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://wa.me/319995-9992">WhatsApp</a>
+                    </li>
+                </ul>
+            </div> 
+        </header>
+
+        <form action="" method="post" autocomplete="off">
+            <h3>CADASTRO - BANCO DE TALENTOS</h3> 
+            <br>
+            <h4>DADOS PESSOAIS</h4>
+            <hr>
+            <br>
+
+            <div class="flex-containerPrimeiraLinha">        
+                <div>
+                    <label for="nome">Nome Completo</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="text" name="nome" id="nome" size="60" maxlength="60" autofocus required><br>
+                </div>
+
+                <div>
+                    <label for="cargo">Cargo Pretendido</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="text" name="cargo" id="cargo" size="50" maxlength="50" required><br>
+                </div>
+            </div>
+
+            <div class="flex-containerSegundaLinha">
+                <div>
+                    <label for="mes">Data de nascimento</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="date" name="datanascimento" id="datanascimento" size="8" maxlength="8" required> 
+                </div>
+
+                <div>
+                    <label for="estadocivil">Estado Civil</label><br>
+                    <select id="estadoCivil" name="estadoCivil">
+                        <option value="" selected></option>
+                        <option value="casado">Casado(a)</option>
+                        <option value="divorciado">Divorciado(a)</option>
+                        <option value="separdo">Separado(a)</option>
+                        <option value="solteiro">Solteiro(a)</option>
+                        <option value="uniaoestavel">União estável</option>
+                        <option value="viuvo">Viúvo(a)</option>
+                    </select><br>
+                </div>
+
+                <div>
+                    <label for="sexo">Sexo</label><br>
+                    <select id="sexo" name="Sexo">
+                        <option value="" selected></option>
+                        <option value="feminino">Feminino</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="outro">Outro</option>
+                    </select><br>
+                </div>
+            </div>
+
+            <div class="flex-containerTerceiraLinha">
+                <div>
+                    <label for="cep">CEP</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="text" name="cep" id="cep" size="8" maxlength="8" required>
+                </div>
+
+                <div>
+                    <label for="logradouro">Endereço</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="text" name="logradouro" id="logradouro" placeholder="ex. Nome da Rua" size="70" maxlength="70" required><br>
+                </div>
+
+                <div>
+                    <label for="numero">Número</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="text" name="numero" id="numero" size="10" maxlength="10" required><br>
+                </div>
+            </div>
+
+            <div class="flex-containerQuartaLinha">
+                <div>
+                    <label for="bairro">Bairro</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="text" name="bairro" id="bairro" size="50" maxlength="50" required><br>
+                </div>
+
+                <div>
+                    <label for="cidade">Cidade</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="text" name="cidade" id="cidade" size="50" maxlength="50" required><br>
+                </div>
+
+                <div>
+                    <label for="uf">UF</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="text" name="uf" id="uf" size="2" maxlength="2" required><br>
+                </div>
+            </div>
+
+            <div class="flex-containerQuintaLinha">
+                <div>
+                    <label for="tel1">Telefone Fixo 1</label><br>
+                    <input type="tel" name="tel1" id="tel1" placeholder="ex: 3595-5678" pattern="[0-9]{4}-[0-9]{4}"><br>
+                </div>
+
+                <div>
+                    <label for="tel2">Telefone Fixo 2</label><br>
+                    <input type="tel" name="tel2" id="tel2" placeholder="ex: 3652-5678" pattern="[0-9]{4}-[0-9]{4}"><br>
+                </div>
+            </div>
+
+            <div class="flex-containerSextaLinha">
+                <div>
+                    <label for="cel">Celular</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="tel" name="cel" id="cel" required placeholder="ex: 9985-5678" pattern="[0-9]{4}-[0-9]{4}"><br>
+                </div>
+
+                <div>
+                    <label for="contato">Contato</label><br>
+                    <input type="text" name="contato" id="contato" size="40" maxlength="40"><br>
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="email" name="email" id="email" placeholder="ex: myname@example.com" size="50" maxlength="50" required><br><br>
+                </div>
+            </div>
+
+            <h4>DOCUMENTOS</h4>
+            <hr>
+            <br>
+
+            <div class="flex-containerSetimaLinha">
+                <div>
+                    <label for="identidade">Identidade</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="input" name="identidade" id="identidade" maxlength="15" required><br>
+                </div>
+
+                <div>
+                    <label for="cpf_digitado">CPF</label>
+                    <label for="*" style="color: red;">*</label><br>
+                    <input type="input" name="cpf_digitado" id="cpf_digitado" maxlength="13" required><br>
+                </div>
+
+                <div>
+                    <label for="veiculo">Possui Veículo</label><br>
+                    <select id="veiculo" name="veiculo">
+                        <option value="" selected></option>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select><br>
+                </div>
+
+                <div>
+                    <label for="habilitacao">Habilitação</label><br>
+                    <select id="habilitacao" name="habilitacao">
+                        <option value="" selected></option>            
+                        <option value="a">CNH A</option>
+                        <option value="b">CNH B</option>
+                        <option value="c">CNH C</option>
+                        <option value="d">CNH D</option>
+                        <option value="e">CNH E</option>
+                    </select><br><br>
+                </div>    
+            </div>    
+    
+            <hr>
+            <br>
+            <button class="buttonInput" type="submit">Enviar</button>
+        </Form>
+
+        <div class="container page-header">
+            <div id="success" class="alert alert-success" style="display: none;" role="alert">
+            </div>
+
+            <div id="error" class="alert alert-danger" style="display: none;" role="alert">
+                <strong style="color:red;">Atenção!</strong> CPF informado inválido. 
+            </div>
+        </div>
+    </body>
+
+    <script = src="./script.js"></script>
+
+    <div class="footer">
+        Copyright © 2021 JobsNET. Todos os direitos reservados
+    </div>
+</html>

@@ -1,0 +1,210 @@
+* {
+    padding:0px;
+    margin: 0px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-style: italic;
+}
+
+header {
+    display: flex; 
+    justify-content:space-around;
+    width: 99%;
+    padding: 7px; 
+    margin-bottom: 10px;    
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: bisque;
+}
+   
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 5px;
+}
+
+header ul li a {
+    transform: 300ms;
+    font-size: 80%;
+}
+
+header ul li a:hover {
+    color:dodgerblue;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 170%;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+h4 {
+    font-size: 110%;
+}
+
+form {
+    font-size: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px;
+}
+
+.page-header {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.flex-quemSomos {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.flex-containerPrimeiraLinha {
+    display: flex; 
+    justify-content: left;
+}
+
+.flex-containerPrimeiraLinha div {
+    margin: 5px;
+}
+
+.flex-containerSegundaLinha {
+    display: flex; 
+    justify-content: left;
+}
+
+.flex-containerSegundaLinha div {
+    margin: 5px;
+}
+
+.flex-containerTerceiraLinha {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerTerceiraLinha div {
+    margin: 5px;
+}
+
+.flex-containerQuartaLinha {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerQuartaLinha div {
+    margin: 5px;
+}
+
+.flex-containerQuintaLinha {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerQuintaLinha div {
+    margin: 5px;
+}
+
+.flex-containerSextaLinha {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerSextaLinha div {
+    margin: 5px;
+}
+
+.flex-containerSetimaLinha {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerSetimaLinha div {
+    margin: 5px;
+}
+
+.quemSomos {
+    text-align: justify;
+    width: 75%;
+    font-size: 130%;
+    margin-left: 155px;
+    margin-top: 50px;
+}
+
+.imagem {
+    text-align:right;
+    width: 90%;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:black;
+    background-color: bisque;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;
+    margin-left: 155px;
+}
+  
+.button:hover {
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.button:active {
+    background-color:cornflowerblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttonInput {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:black;
+    background-color: bisque;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;
+}
+  
+.buttonInput:hover {
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.buttonInput:active {
+    background-color:cornflowerblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 99%;
+    background-color: bisque;
+    text-align: center;
+    font-size: 70%;
+    padding: 5px 15px;
+}
